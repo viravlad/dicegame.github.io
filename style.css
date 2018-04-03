@@ -1,0 +1,123 @@
+ body{
+	background-image: url(zane.png);
+}
+.container
+{
+	background-color: #d7dae0;
+	width: 1000px;
+	height: 600px;
+	margin: 0px auto;
+	border-radius: 25px;
+	position: absolute;
+    top: 15%;
+    left: 15%;
+    right: 15%;
+    bottom: 15%;
+    background: rgba(0,0,0,0.4);
+    
+}
+.container-title 
+{
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+	text-align: center;
+	background-color: #646568;
+	padding-top: 50px;
+	font-family: cursive;
+	text-shadow: 1px 1px #DAA9A9;
+	border-bottom-right-radius:10px;
+	border-bottom-left-radius:10px;
+	background: rgba(0,0,0,0.3);
+	color:#D91E18  ;
+}
+.container-title #title-dice
+{
+	padding-bottom: 20px
+}
+.container .both-box-player
+{
+	display: inline-block;
+	text-align: center;
+	width:400px;
+	height: 300px;
+}
+.main
+{
+	text-align: center;
+}
+#full-box
+{
+display: inline-block;
+text-align: center;
+background: rgba(0,0,0,0.4);
+}
+.main-both-box-player
+{
+	text-align: center;
+	color:#D91E18 	
+}
+.number-score
+{
+	padding-top: 20px;
+	font-size: 50px;
+	font-family: cursive;
+}
+.first-part
+{
+	background-color: #eff2f7;
+	border-radius: 15px
+}
+.second-part
+{
+	background-color: #eff2f7;
+	border-radius: 15px
+}
+.roll-btn
+{
+	padding-top: 30px;
+}
+#roll-btn-input
+{
+	size: 40px;
+	border-radius:50px;
+	width: 120px;
+	height:45px;
+	font-family: cursive;
+	border:2px solid blue;
+	font-size: 15px;
+	background-color: #ECF0F1;
+	border-color: #f9fafc;
+	box-shadow: 2px 2px grey;
+
+}
+.dice-logo
+{   
+	padding-top: 100px;
+	padding-left:220px;
+	z-index: 10;
+	position: absolute;
+}
+#stop-btn-input{
+	size: 40px;
+	border-radius:50px;
+	width: 120px;
+	height:45px;
+	font-family: cursive;
+	border:2px solid blue;
+	font-size: 15px;
+	background-color: #ECF0F1;
+	border-color: #f9fafc;
+	box-shadow: 2px 2px grey;
+}
+#new-btn-input{
+	size: 40px;
+	border-radius:50px;
+	width: 120px;
+	height:45px;
+	font-family: cursive;
+	border:2px solid blue;
+	font-size: 15px;
+	background-color: #ECF0F1;
+	border-color: #f9fafc;
+	box-shadow: 2px 2px grey;
+}

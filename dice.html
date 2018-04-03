@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RollDice</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="mecanism.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class="dice-logo">
+		<img src="zar.png" id="move-image">
+	</div>
+	<div class="container">
+		<div class="container-title">
+			<h1 id="title-dice">ROLL THE DICE</h1>
+		</div>
+		<div class="main-both-box-player">
+		  <div class="first-part" id="full-box">
+			<div class="both-box-player">
+				<h3>PLAYER1:</h3>
+				<div class="number-score">
+					<p id="player-score0">0</p>
+				</div>
+			</div>
+			<div class="text-score">
+				<h3>SCORE :<span id="getScore0"></span></h3>
+			</div>
+		 </div>
+		 <div class="second-part" id="full-box">	
+			<div class="both-box-player">
+				<h3>PLAYER2:</h3>
+				<div class="number-score">
+					<p id="player-score1">0</p>
+				</div>
+			</div>
+			<div class="text-score">
+				<h3>SCORE :<span id="getScore1"></span></h3>
+			</div>
+		 </div>
+		 <div class="roll-btn">
+		 	<input type="button" name="new" value="New Game" id="new-btn-input" onClick="start()">
+		 	<input type="button" name="roll" value="Roll the Dice" id="roll-btn-input" onClick="add()">
+		 	<input type="button" name="stop" value="Get The Points" onClick="stop()" id="stop-btn-input">
+		 </div>
+		</div>
+	</div>
+</body>
+</html>
